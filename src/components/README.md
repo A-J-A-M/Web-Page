@@ -1,0 +1,1 @@
+My first web page. It's use is for personal purposes as a virtual portfolio
