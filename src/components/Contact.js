@@ -3,10 +3,14 @@ import emailjs from "@emailjs/browser";
 
 const Contact = () => {
     const form = useRef();
+    require('dotenv').config()
 
     const sendEmail = (e) => {
-      require('dotenv').config()
+      
       e.preventDefault();
+      console.log(process.env.NODE_ENV)
+      console.log(process.env)
+      console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID)
   
       emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
