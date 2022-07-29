@@ -8,9 +8,6 @@ const Contact = () => {
     const sendEmail = (e) => {
       
       e.preventDefault();
-      alert(process.env.NODE_ENV)
-      alert(process.env)
-      alert(process.env.REACT_APP_EMAILJS_SERVICE_ID)
   
       emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
