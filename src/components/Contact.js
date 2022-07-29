@@ -5,6 +5,7 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
+      require('dotenv').config()
       e.preventDefault();
   
       emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,
