@@ -9,10 +9,14 @@ const Contact = () => {
       
       e.preventDefault();
   
-      emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      // emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,
+      //   process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+      //   form.current,
+      //   process.env.REACT_APP_EMAILJS_USER_ID)
+      emailjs.sendForm("service_2idj8j9",
+      "template_rapd5or",
         form.current,
-        process.env.REACT_APP_EMAILJS_USER_ID)
+        "BcnW91V_0XppqA2_V")
         .then((result) => {
             alert('Mensaje enviado con éxito');
         }, (error) => {
