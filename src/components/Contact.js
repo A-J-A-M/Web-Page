@@ -10,7 +10,6 @@ const Contact = () => {
       e.preventDefault();
 
       emailjs.init("BcnW91V_0XppqA2_V");
-      console.log("BcnW91V_0XppqA2_V");
   
       // emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID,
       //   process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
