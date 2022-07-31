@@ -44,7 +44,7 @@ const Portafolio = ({ click, datos }) => {
                                         </div> 
                                     </div>          
                                 </div>
-                                <a className="text-danger" href={dato.referencia} target="_blank" rel="noreferrer">Ver código</a>
+                                <a className="text-danger" href={dato.referencia} target="_blank" rel="noopener noreferrer">Ver código</a>
                             </div>  
                            ))}              
                         </div> 

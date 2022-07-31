@@ -120,8 +120,8 @@ const Web = () => {
         <header className="header">
             <div className="container">
                 <ul className="social-icons pt-3">
-                    <li className="social-item"><a className="social-link text-light" href="https://www.linkedin.com/in/alan-jordi-avalos-medina-9a6478240/" target="_blank" rel="noreferrer"> <i className="ti-linkedin" aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link text-light" href="https://github.com/A-J-A-M" target="_blank" rel="noreferrer"> <i className="ti-github" aria-hidden="true"></i></a></li>
+                    <li className="social-item"><a className="social-link text-light" href="https://www.linkedin.com/in/alan-jordi-avalos-medina-9a6478240/" target="_blank" rel="noopener noreferrer"> <i className="ti-linkedin" aria-hidden="true"></i></a></li>
+                    <li className="social-item"><a className="social-link text-light" href="https://github.com/A-J-A-M" target="_blank" rel="noopener noreferrer"> <i className="ti-github" aria-hidden="true"></i></a></li>
                 </ul>  
                 <div className="header-content">
                     <h4 className="header-subtitle" >Hola, mi nombre es</h4>
@@ -193,8 +193,8 @@ const Web = () => {
                         <li><span>Celular:</span> +52 (722) 14-68-376</li>
                     </ul>
                     <ul className="social-icons pt-3">
-                        <li className="social-item"><a className="social-link" href="https://www.linkedin.com/in/alan-jordi-avalos-medina-9a6478240/" target="_blank" rel="noreferrer"> <i className="ti-linkedin" aria-hidden="true"></i></a></li>
-                        <li className="social-item"><a className="social-link" href="https://github.com/A-J-A-M" target="_blank" rel="noreferrer"> <i className="ti-github" aria-hidden="true"></i></a></li>
+                        <li className="social-item"><a className="social-link" href="https://www.linkedin.com/in/alan-jordi-avalos-medina-9a6478240/" target="_blank" rel="noopener noreferrer"> <i className="ti-linkedin" aria-hidden="true"></i></a></li>
+                        <li className="social-item"><a className="social-link" href="https://github.com/A-J-A-M" target="_blank" rel="noopener noreferrer"> <i className="ti-github" aria-hidden="true"></i></a></li>
                     </ul>  
                 </div>
                 <div className="col-lg-4 about-card">
@@ -410,7 +410,7 @@ const Web = () => {
         <footer className="footer py-3">
             <div className="container">
                 <p className="small mb-0 text-light">
-                    &copy; <script>document.write(new Date().getFullYear())</script> Created With <i className="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank" rel="noreferrer"><span className="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
+                    &copy; <script>document.write(new Date().getFullYear())</script> Created With <i className="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank" rel="noopener noreferrer"><span className="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
                 </p>
             </div>
         </footer>
